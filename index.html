@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Ahmed Mohamed</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+  <button onclick="viewLogInTab()" style="width:auto;" class="button">Login</button>
+
+  <div id="id01" class="s">
+
+    <form class=" modal-content animate" action="/index.html" method="get">
+      <div class="imgcontainer">
+        <span onclick="closeLogInTab()" class="close" title="Close Modal">&times;</span>
+        <img src="images/avatar.jfif" alt="Avatar" class="avatar">
+      </div>
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" name="remember"> Remember me
+        </label>
+      </div>
+
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="closeLogInTab()" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" class="left" onclick="openNav()">&#9776; open</span>
+
+
+  <div id="mySidenav" class="sidenav">
+    <a class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#About">About</a>
+    <a href="#skills">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="top-container">
+    <img class="g1" src="IMAGES/g-removebg-preview.png" alt="g1 ">
+    <div class="title-text">
+      <h1>Hello im ahmed</h1>
+      <h2>a <span class="pro">pro</span>grammer & gamer.</h2>
+    </div>
+    <img class="g2" src="IMAGES/g-removebg-preview.png" alt="g2">
+    <img class="mountain" src="IMAGES/bot-removebg-preview.png" alt="mountain-img">
+  </div>
+
+  <div id="About" class="middle-container">
+    <div class="profile">
+      <img src="IMAGES/mejpg.jpg" alt="its me" width="200" style="border-radius: 50px;">
+      <h2 class="title1">Hello.</h2>
+      <p class="intro"> <span style="color: rgb(150, 32, 182);"> I am Studnet at CS in AASTMT ASWAN</span><span style="color:rgb(219, 71, 71)"> I love </span><span style="color:rgb(141, 73, 192)"> gaming,</span><span style="color:rgb(78, 206, 64)"> anime </span><span style="color:rgb(96, 102, 212)">& </span><span style="color:rgb(222, 77, 142)">coding </span>❤️ </p>
+    </div>
+    <hr>
+    <div id="skills" class="skills">
+      <h2 class="sse">My Skills.</h2>
+      <div class="skill-row">
+        <img class="p" src="IMAGES/p.gif" alt="p">
+
+        <h3>programming</h3>
+        <p>I statrted in this field because i want to devolop my own game one day, and im
+            willing to be better as programmer.</p>
+
+      </div>
+      <div class="skill-row">
+        <img class="gaming" src="IMAGES/g.gif" alt="gaming">
+
+        <h3>Big super noob gamer :D</h3>
+        <p>I love gaming since i was child, i love moba and strategy games
+            do you like this type of game as will?.</p>
+
+      </div>
+    </div>
+    <hr>
+    <div id="contact" class="contact-me">
+      <h2 class="get">Get In Touch</h2>
+      <h3>If you love gaming as mush as me !.</h3>
+      <p class="contact-message">do you love gaming as mush as me? lets talk about coding and play together </p>
+      <a class="btn" href="mailto:superahmed607@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+
+    <a class="footer-link" target="_blank" href="https://www.facebook.com/LORDMAX20">Facebook</a>
+    <a class="footer-link" target="_blank" href="">Discord : Senpai QwQ#6666 </a>
+    <p class="copyright">© 2023 Ahmed Mohamed @ AAST.</p>
+  </div>
+  <script src="scriot.js"></script>
+  <script src="scriot.js"></script>
+</body>
+
+</html>
